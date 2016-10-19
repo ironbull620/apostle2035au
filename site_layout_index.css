@@ -1,0 +1,3035 @@
+#rot div.menuwidget, #rot div.menuwidget_vertical {
+  float: left;
+  padding: 0;
+  border-bottom: 1px solid #c5c5c5;
+  background: #5ba51d;
+  margin: 0;
+}
+
+#rot div.menuwidget ul, #rot div.menuwidget_vertical ul {
+  text-align: left;
+  padding: 0;
+  list-style: none outside none;
+  margin: 0 auto;
+}
+
+#rot div.menuwidget ul li, #rot div.menuwidget_vertical ul li {
+  text-transform: uppercase;
+  color: #FFF;
+  font-size: .7em;
+  display: inline;
+}
+
+#rot div.menuwidget > ul > li.last > a, #rot div.menuwidget_vertical > ul > li.last > a {
+  border-right: 0px none;
+}
+
+#rot div.menuwidget ul li a, #rot div.menuwidget_vertical ul li a {
+  text-align: center;
+  text-decoration: none;
+  padding: 9px 20px 9px 20px;
+  font-weight: normal;
+  display: block;
+  color: #fff;
+  float: left;
+  white-space: nowrap;
+}
+
+#rot div.menuwidget ul li:hover, #rot div.menuwidget_vertical ul li:hover {
+}
+
+#rot div.menuwidget ul li a:hover, #rot div.menuwidget_vertical ul li a:hover {
+  color: #FFF;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+#rot div.menuwidget ul li ul, #rot div.menuwidget_vertical ul li ul {
+  width: auto;
+  border-right: 1px solid #CDD2D4;
+  padding: 0;
+  background: #fff;
+  border-left: 1px solid #CDD2D4;
+  display: block;
+  border-top: 1px solid #CDD2D4;
+  float: left;
+  z-index: 1000;
+}
+
+#rot div.menuwidget ul li ul li, #rot div.menuwidget_vertical ul li ul li {
+  width: auto;
+  white-space: nowrap;
+  float: none;
+  border-bottom: 1px solid #CDD2D4;
+  background-image: none;
+  display: block;
+}
+
+#rot div.menuwidget ul li ul li a, #rot div.menuwidget_vertical ul li ul li a {
+  width: auto;
+  text-align: left;
+  color: #434343;
+  padding: 0.6em 3em 0.6em 1.8em;
+  font-weight: normal;
+  background-image: none;
+  margin: 0;
+  height: auto;
+  font-size: 12px;
+}
+
+#rot div.menuwidget ul li ul li a:hover, #rot div.menuwidget_vertical ul li ul li a:hover {
+  width: auto;
+  color: #FFF;
+  background-color: #5BA51D;
+  font-weight: normal;
+  background-image: none;
+}
+
+#rot div.menuwidget ul li ul li a.parent_menu_item, #rot div.menuwidget_vertical ul li ul li a.parent_menu_item {
+  background-repeat: no-repeat;
+  background-position: 95% 50%;
+  background-image: url('/static/designs/images/repository/SpryMenuBarRight.gif');
+}
+
+#rot div.menuwidget ul li { float: left; }
+#rot div.menuwidget ul li a { float: left; }
+#rot div.menuwidget ul li ul li { float: none; }
+#rot div.menuwidget_vertical ul li { float: none; }
+#rot div.menuwidget_vertical ul li a { float: none; }
+#rot div.menuwidget_vertical_tree {
+  float: left;
+  padding: 0;
+  border-bottom: 1px solid #c5c5c5;
+  background: #5ba51d;
+  margin: 0;
+}
+
+#rot div.menuwidget_vertical_tree ul {
+  text-align: left;
+  width: 940px;
+  padding: 0;
+  list-style: none outside none;
+}
+
+#rot div.menuwidget_vertical_tree {
+  text-transform: uppercase;
+  color: #FFF;
+  font-size: .7em;
+  display: inline;
+}
+
+#rot div.menuwidget_vertical_tree > ul > li.last > a {
+  border-right: 0px none;
+}
+
+#rot div.menuwidget_vertical_tree a {
+  text-align: center;
+  text-decoration: none;
+  padding: 9px 20px 9px 20px;
+  font-weight: normal;
+  display: block;
+  color: #fff;
+  float: left;
+  white-space: nowrap;
+}
+
+#rot div.menuwidget_vertical_tree:hover {
+}
+
+#rot div.menuwidget_vertical_tree a:hover {
+  color: #FFF;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+#rot div.menuwidget_vertical_tree ul {
+  width: auto;
+  border-right: 1px solid #CDD2D4;
+  padding: 0;
+  background: #fff;
+  border-left: 1px solid #CDD2D4;
+  display: block;
+  border-top: 1px solid #CDD2D4;
+  float: left;
+  z-index: 1000;
+}
+
+#rot div.menuwidget_vertical_tree ul li {
+  width: auto;
+  white-space: nowrap;
+  float: none;
+  border-bottom: 1px solid #CDD2D4;
+  background-image: none;
+  display: block;
+}
+
+#rot div.menuwidget_vertical_tree ul li a {
+  width: auto;
+  text-align: left;
+  color: #434343;
+  padding: 0.6em 3em 0.6em 1.8em;
+  font-weight: normal;
+  background-image: none;
+  margin: 0;
+  height: auto;
+  font-size: 12px;
+}
+
+#rot div.menuwidget_vertical_tree ul li a:hover {
+  width: auto;
+  color: #FFF;
+  background-color: #5BA51D;
+  font-weight: normal;
+  background-image: none;
+}
+
+#rot div.menuwidget_vertical_tree ul li a.parent_menu_item {
+  background-repeat: no-repeat;
+  background-position: 95% 50%;
+  background-image: url('/static/designs/images/repository/SpryMenuBarRight.gif');
+}
+
+#rot div.menuwidget_vertical_tree ul li ul { float: none; border-right: none; border-left: none; border-bottom: none; }
+#rot div.menuwidget_vertical_tree ul li ul li { text-indent: 10px;}
+#rot div.menuwidget_vertical_tree ul li ul li.last { border-bottom: none; }
+#rot div.menuwidget_vertical_tree ul li ul ul { float: none; border-right: none; border-left: none; border-bottom: none; }
+#rot div.menuwidget_vertical_tree ul li ul li ul li { text-indent: 20px;}
+#rot div.menuwidget_vertical_tree ul li ul li ul li.last { border-bottom: none; }
+#rot div.menuwidget_vertical_tree ul li ul ul ul { float: none; border-right: none; border-left: none; border-bottom: none; }
+#rot div.menuwidget_vertical_tree ul li ul li ul li ul li { text-indent: 30px;}
+#rot div.menuwidget_vertical_tree ul li ul li ul li ul li.last { border-bottom: none; }
+#rot div.menuwidget_vertical_tree ul li ul ul ul ul { float: none; border-right: none; border-left: none; border-bottom: none; }
+#rot div.menuwidget_vertical_tree ul li ul li ul li ul li ul li { text-indent: 40px;}
+#rot div.menuwidget_vertical_tree ul li ul li ul li ul li ul li.last { border-bottom: none; }
+#rot div.menuwidget_vertical_tree ul li ul ul ul ul ul { float: none; border-right: none; border-left: none; border-bottom: none; }
+#rot div.menuwidget_vertical_tree ul li ul li ul li ul li ul li ul li { text-indent: 50px;}
+#rot div.menuwidget_vertical_tree ul li ul li ul li ul li ul li ul li.last { border-bottom: none; }
+#rot div.menuwidget_vertical_tree ul li ul ul ul ul ul ul { float: none; border-right: none; border-left: none; border-bottom: none; }
+#rot div.menuwidget_vertical_tree ul li ul li ul li ul li ul li ul li ul li { text-indent: 60px;}
+#rot div.menuwidget_vertical_tree ul li ul li ul li ul li ul li ul li ul li.last { border-bottom: none; }
+#rot div.menuwidget_vertical_tree ul li ul ul ul ul ul ul ul { float: none; border-right: none; border-left: none; border-bottom: none; }
+#rot div.menuwidget_vertical_tree ul li ul li ul li ul li ul li ul li ul li ul li { text-indent: 70px;}
+#rot div.menuwidget_vertical_tree ul li ul li ul li ul li ul li ul li ul li ul li.last { border-bottom: none; }
+#rot div.menuwidget_vertical_tree ul li ul ul ul ul ul ul ul ul { float: none; border-right: none; border-left: none; border-bottom: none; }
+#rot div.menuwidget_vertical_tree ul li ul li ul li ul li ul li ul li ul li ul li ul li { text-indent: 80px;}
+#rot div.menuwidget_vertical_tree ul li ul li ul li ul li ul li ul li ul li ul li ul li.last { border-bottom: none; }
+#rot div.menuwidget_vertical_tree ul li ul ul ul ul ul ul ul ul ul { float: none; border-right: none; border-left: none; border-bottom: none; }
+#rot div.menuwidget_vertical_tree ul li ul li ul li ul li ul li ul li ul li ul li ul li ul li { text-indent: 90px;}
+#rot div.menuwidget_vertical_tree ul li ul li ul li ul li ul li ul li ul li ul li ul li ul li.last { border-bottom: none; }
+#rot div.menuwidget_vertical_tree a { text-align: left; }
+div.b_menuwidget { display: inline-block; }
+/***** Default Settings *****/
+ 
+#rot, html, body {
+  border: 0;
+  margin: 0;
+  padding: 0;
+}
+
+/*
+#rot, html {
+  height: 100%;
+}
+*/
+
+#rot .msg_404 {
+  padding: 2.5em;
+  text-align: center;
+} 
+
+html {
+  color: #606060;
+  font: 13px arial, verdana, sans-serif;
+}
+
+/***** Common Formatting *****/
+ 
+h1, h2, h3, h4, h5, h6 {
+  font-weight: normal;
+  margin: 0;
+  padding: 0;
+}
+ 
+h1 {
+  font-size: 2em;
+  letter-spacing: -1px;
+  padding: 1em 0;
+}
+ 
+h2 {
+  font-size: 1.5em;
+  letter-spacing: -1px;
+  padding: 1em 0;
+}
+ 
+h3 {
+  font-size: 1.3em;
+}
+ 
+p, ul {
+  margin: 0;
+  padding: 0;
+}
+ 
+ul {
+  list-style: none;
+}
+
+dl, dt, dd {
+  margin: 0;
+  padding: 0;
+}
+ 
+blockquote {
+  margin: 1em 2em;
+  padding: 0;
+}
+ 
+small, .small {
+  font-size: .9em;
+}
+ 
+img {
+  border: 0;
+}
+ 
+sup {
+  bottom: 0.3em;
+  position: relative;
+  vertical-align: baseline;
+}
+ 
+sub {
+  bottom: -0.2em;
+  position: relative;
+  vertical-align: baseline;
+}
+ 
+acronym, abbr {
+  border-bottom: 1px dashed;
+  cursor: help;
+  letter-spacing: 1px;
+}
+ 
+/***** Links *****/
+ 
+a, a:visited {
+  color: #4787c7;
+  text-decoration: underline;
+}
+
+/***** Forms *****/
+ 
+form {
+  border: 0;
+  margin: 0;
+  padding: 0;
+}
+
+input, textarea {
+  border: 1px solid #CCC;
+  margin: 0;
+  padding: .2em .3em; 
+}
+
+input[type=submit] {
+  font-size: 1em;
+  height: 1.8em;
+  left: 0em;
+}
+
+input[type=reset] {
+  font-size: 1em;
+  height: 1.8em;
+}
+
+input[type=text], input[type=password] {
+  font-size: 1em; 
+  width: 13em;
+}
+
+input[type=checkbox],
+input[type=radio] {
+  border: 0;
+}
+
+input[type=radio] {
+  margin-top: .5em;
+}
+
+
+select { 
+  font-size: 1em;
+}
+
+textarea {
+  line-height: 1.25;
+  height: 6em;
+  width: 100%;
+}
+
+/**** The char_* class help to set the width of form fields ****/
+input.char_8 {
+  width: 5em;
+}
+
+input.char_5 {
+  width: 3.3em;
+}
+
+input.char_4 {
+  width: 2.7em;
+}
+
+input.char_3 {
+  width: 2em;
+}
+
+input.char_2 {
+  width: 1.4em;
+}
+
+input.char_1 {
+  width: 1em;
+}
+
+.button {
+  background: #FFFFEA
+  border: 1px solid #F0B034;
+  cursor: pointer;
+  float: left;
+  line-height: 1.7em;
+  margin: 0 .3em;
+  padding: 0em .4em;
+}
+
+  .button.mousedown {
+    border-color: #BE8B29;
+  }
+
+  .button.disabled {
+    background-color: #DDD;
+    border-color: #999;
+    color: #777;
+    cursor: auto;
+  }
+
+/***** Global Classes *****/
+.clear         { clear: both; }
+.clear_l       { clear: left; }
+.clear_r       { clear: right; }
+ 
+.float_l       { float: left; }
+.float_follow  { position: relative; top: 3px; }
+.float_r       { float: right; }
+ 
+.text_left     { text-align: left; }
+.text_right    { text-align: right; }
+.text_center   { text-align: center; }
+.text_justify  { text-align: justify; }
+ 
+.bold          { font-weight: bold; }
+.italic        { font-style: italic; }
+.underline     { border-bottom: 1px solid; }
+
+.hidden        { display: none; }
+
+.vert_divider  { padding: 0 .2em; font-size: .9em; vertical-align: top; } 
+
+/* acts as the body tag, properties added here will be placed in the body tag of a published page */
+
+body { 
+  background: #5ba51d;
+}
+
+
+/******* global TEXT/FONT properties *******/
+
+body {
+  text-align: center;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size:16px;
+  color: #4b4b4b;
+}
+
+#rot p {
+  font-size: 0.75em;
+  padding: 0 0 15px 0;
+}
+
+/* Company Logo */
+#rot h1 {
+  padding: 0 30px;
+  font-size: 1.88em;
+  font-weight: normal;
+  color:#5d5c5c;
+  font-family:Tahoma;
+  letter-spacing: 0;
+}
+
+/* Index Pages Welcome Text Header */
+#rot h2 {
+  font-weight: bold;
+  padding: 0 0 15px;
+  font-size: 1.2em;
+  color: #5ba51d;
+  line-height: 1.6;
+  letter-spacing: 0;
+}
+
+/* Default Pages Header */
+#rot h3 {
+  font-size: 1.12em;
+  color: #FFF;
+  font-weight: normal;
+  padding: 20px 0 20px 30px;
+}
+
+/* Content Header */
+#rot h4 { 
+  color: #5ba51d;
+  font-size: .98em;
+  font-weight: bold;
+  padding: 0 0 15px 15px;
+  background: url('/static/designs/images/repository/bullet_6x10_pixel_arrow_green.gif') #FFF 0 .5em no-repeat scroll;
+}
+
+#rot h5 {
+
+}
+
+#rot h6 {
+
+}
+
+
+#rot a {
+  color: #5ba51d;
+}
+
+#rot a:link {
+
+}
+
+#rot a:visited {
+	
+} 
+
+#rot a:active {
+
+}
+
+#rot a:hover {
+  text-decoration:underline;
+}
+
+#rot ul {
+	list-style: square;
+	list-style-position: inside;
+	margin:0;
+	padding: 0 0 15px 0;
+}
+
+#rot li {   
+        background: none;
+    padding: 0 0 0 0;
+    font-size: .75em;
+    
+}
+
+#rot form {
+  font-size: 0.75em;
+  
+}
+
+/******* end of global TEXT/FONT properties *******/
+
+body {
+    background: #5ba51d;
+}
+
+#rot #rot_ctr1 {
+	width: 100%;
+	margin:0 auto;
+	padding:0;
+	text-align:center;
+	width: auto;
+	min-width: 960px;
+	background: #FFF;
+}
+
+
+#rot #rot_ctr1_hdr {
+
+}
+
+#rot #rot_ctr1_bod {
+	margin: 0 auto;
+	text-align:left;
+	position: relative;
+	width: 100%;
+}
+
+
+#rot #rot_ctr1_bod_ctr1_ftr {
+}
+
+/* header */
+#rot #rot_ctr1_bod_ctr1 {
+	width: 100%;
+	margin: 0 auto;
+        padding: 30px 0;
+        clear: both;
+         float: left;
+}
+
+#rot #rot_ctr1_bod_ctr1_hdr {
+}
+
+#rot #rot_ctr1_bod_ctr1_bod {
+     text-align: left;
+ width: 960px;
+ margin: 0 auto;
+}
+
+#rot #rot_ctr1_bod_ctr1_bod h1 {
+  padding: 0 30px;
+}
+
+/* end header */
+
+/* menu */
+#rot #rot_ctr1_bod_ctr2 {
+  width: 100%;
+}
+
+#rot #rot_ctr1_bod_ctr2_hdr {
+	
+}
+
+#rot #rot_ctr1_bod_ctr2_bod {
+  width: 100%;
+  float: left;
+  padding: 0;
+  margin: 0;
+  background: #5ba51d;
+  border-bottom: 1px solid #c5c5c5;
+}
+
+#rot #rot_ctr1_bod_ctr2_bod ul {
+  list-style: none outside none;
+  padding: 0 10px;
+  margin:0 auto;
+  width: 940px;
+  padding: 0;
+  text-align: left;
+}
+
+#rot #rot_ctr1_bod_ctr2_bod ul li {
+  color: #FFF;
+  display: inline;
+  font-size: .7em;
+  text-transform:uppercase;
+    
+}
+
+#rot #rot_ctr1_bod_ctr2_bod > ul > li.last > a {
+  border-right: 0px none;
+}
+
+#rot #rot_ctr1_bod_ctr2_bod ul li a {
+  color: #fff;
+  display: block;
+  float: left;
+  padding: 9px 20px 9px 20px;
+  text-decoration: none;
+  font-weight: normal;
+  text-align: center;
+  white-space: nowrap;
+}
+
+#rot #rot_ctr1_bod_ctr2_bod ul li:hover {
+  
+}
+
+#rot #rot_ctr1_bod_ctr2_bod ul li a:hover {
+  color: #FFF;
+  text-decoration: none;
+  font-weight:bold;
+}
+
+#rot #rot_ctr1_bod_ctr2_ftr {
+}
+/* end of menu */
+
+
+/* drop down menu */
+#rot #rot_ctr1_bod_ctr2_bod ul li ul {
+    display: block;
+    float: left;
+    width: auto;
+    background: #fff;
+    padding: 0;
+    border-top: 1px solid #CDD2D4;
+border-left: 1px solid #CDD2D4;
+border-right: 1px solid #CDD2D4;
+   z-index: 1000;
+}
+
+#rot #rot_ctr1_bod_ctr2_bod ul li ul li {
+    display: block;
+    float: none;
+    width: auto;
+    white-space: nowrap;
+    border-bottom: 1px solid #CDD2D4;
+    background-image: none;
+}
+
+#rot #rot_ctr1_bod_ctr2_bod ul li ul li a {
+    margin: 0;
+  padding: 0.6em 3em 0.6em 1.8em;
+    text-align: left;
+    font-weight: normal;
+    font-size: 12px;
+    width: auto;
+    background-image: none;
+    height: auto;
+    margin: 0;
+    color: #434343;
+}
+
+#rot #rot_ctr1_bod_ctr2_bod ul li ul li a:hover {
+   background-image: none;
+   width: auto;
+   font-weight: normal;
+   color: #FFF;
+   background-color: #5BA51D;
+}
+
+#rot #rot_ctr1_bod_ctr2_bod ul li ul li a.parent_menu_item {
+  background-image:url('/static/designs/images/repository/SpryMenuBarRight.gif');
+  background-position:95% 50%;
+  background-repeat:no-repeat;
+}
+
+/* end of drop down menu */
+
+/* main content styles */
+#rot #rot_ctr1_bod_ctr3 {
+	float:left;
+	padding: 0;
+	width: 100%;
+	overflow: hidden;
+	margin: 0 0 8px 0;
+	position: relative;
+} 
+
+#rot #rot_ctr1_bod_ctr3_bod {
+    width: 960px;
+	margin: 0 auto;
+	
+}
+
+#rot #rot_ctr1_bod_ctr3_bod_wrp1 {
+  line-height: 1.6;
+  float: left;
+  width: 100%;
+}
+
+#rot #rot_ctr1_bod_ctr3_bod_wrp1_blk2 ul li {
+    color: #5ba51d;
+    font-weight: bold;
+}
+
+#rot #rot_ctr1_bod_ctr3_ftr {
+   clear: both;
+}
+
+#rot #rot_ctr1_bod_ctr3_bod_wrp1_blk1_blk1 p {
+  line-height: 1.3;
+  color: #FFF;
+}
+
+/** end of  main content styles **/  
+
+/** footer styles **/
+#rot #rot_ctr1_bod_ctr4 {
+  clear: both;
+  width: 100%;
+  margin: 0 auto;
+  padding: 15px 0;
+  background: #5ba51d;
+}
+
+#rot #rot_ctr1_bod_ctr4_hdr {
+}
+
+#rot #rot_ctr1_bod_ctr4_bod p {
+  font-size: .6em;
+  text-align: center;
+}
+
+#rot #rot_ctr1_bod_ctr4_ftr {
+
+}
+
+#rot #rot_ctr1_ftr {
+	clear: both;
+}
+/** end of footer styles **/
+
+
+
+
+/*-----------------------------------------------------------------------------
+* WEATHER WIDGET
+-----------------------------------------------------------------------------*/
+      .weather_city_color     { color : #1B489D; }
+      .weather_date_color     { color : #3e3e3e; }
+      .weather_other_color    { color : #555555; }
+      .weather_divider_color  { color : #999999; background-color: #999999; }
+
+      .weather {
+        width           : 100%;
+        font-size       : 13px;
+      }
+
+      .weather_city_name {
+        font-weight     : bold; 
+        font-size       : 1.4em;
+      }
+      .weather_city_name_small {
+        font-weight     : bold;
+        font-size       : 1.2em;
+      }
+
+      .weather_top_hr {
+        height          : 5px;
+        border          : 0;
+        width           : 96%;
+        text-align      : center;
+      }
+
+      .weather_bottom_hr {
+        border          : 0;
+        height          : 1px;
+        width           : 96%;
+        text-align      : center;
+      }
+
+      .weather_day_text {
+        font-weight     : bold;
+        font-size       : 1.2em;
+        margin-left     : 2em;
+      }
+      .weather_day_date {
+        font-weight     : normal;
+        font-size       : .9em; 
+        padding-top     : .3em;
+      }
+      .weather_hi_lo_text {
+        font-weight     : bold;
+      }
+
+      .weather_prediction_text {
+        font-weight     : bold;
+      }
+
+      /* All Encompassing Container */
+      #weather_container {
+        padding         : 0px;
+        font-family     : Arial;
+        font-size       : 1em;
+        line-height     : 1.1;
+        float           : left;
+      }
+
+      #location_wrapper{
+        padding-bottom  : .5em;
+        white-space     : normal;
+        float           :left;
+      }
+
+      #weather_container {
+        width           : 100%;
+      }
+
+      #error_container{
+        padding         : 20px;
+        color           : #F00;
+      }
+
+      /* Title */
+      #weather_container_title {
+        padding-bottom  : 0px;
+        height          : 2em;
+        padding-left    : 1em;
+        padding-top     : 10px;
+        padding-right   : 1em;
+        white-space     : normal;
+        float           : none;
+      }
+
+      /* Top HR */
+      #weather_container_top_seperator, #weather_container_bottom_seperator {
+        width           : 100%;
+        text-align      : center;
+        padding         : 0;
+        float           : none;
+        clear           : both;
+      }
+
+      /* individual forecasts */
+      #today, #tomorrow {
+        height          : 9em;
+        float           : left;
+        width           : 50%;
+        min-width       : 17.4em;
+      }
+
+      /* #today { background-color: pink; }  */
+      /* #tomorrow { background-color: orange; } */
+
+      #today div, #tomorrow div {
+        float           : left;
+      }
+
+      #weather_today_heading, #weather_tomorrow_heading {
+        float           : left;
+        white-space     : nowrap;
+      }
+
+      #weather_today_prediction, #weather_tomorrow_prediction {
+        clear           : both;
+        padding         : .3em .5em 1em 2.5em; 
+        white-space     : normal;
+      }
+
+      #weather_today_image, #weather_tomorrow_image {
+        padding         : 1em .5em 0 2.5em; 
+        width           : 90%;
+      }
+
+      #hi_lo_today, #hi_lo_tomorrow {
+        padding         : 5px 0px 0px 10px;
+      }
+
+      #weather_today_image img, #weather_tomorrow_image img{
+        float           : left;
+      }
+
+      #weather_today_image p, #weather_tomorrow_image p{
+        padding         : 2px 10px 0px 0px;
+        margin          : 0;
+      }
+
+      #weather_container_footer{
+        width           : 98%;
+        height          : 10px;
+        padding-top     : .5em;
+        text-align      : right;
+        font-size       : .7em;
+        padding-right   : 15px;
+        float           : right;
+        clear           : both;
+        padding-bottom  : 1em;
+      }
+
+      .weather_widget_color_picker_tooltip{
+        padding-top     : 4px;
+      }
+
+/*-----------------------------------------------------------------------------
+* end WEATHER WIDGET
+-----------------------------------------------------------------------------*/
+
+/*-----------------------------------------------------------------------------
+* GOOGLEMAP WIDGET
+-----------------------------------------------------------------------------*/
+#to_here, #from_here {
+  color: blue;
+  cursor: pointer;
+}
+
+#directions_form {
+  height: 1em;
+}
+
+.address_text {
+  font-weight: bold;
+}
+
+.directions_text {
+  padding-top: .5em;
+}
+
+.directions_start_address,
+.directions_end_address {
+  font-size: .8em;
+  color: grey;
+}
+/*-----------------------------------------------------------------------------
+* end GOOGLEMAP
+-----------------------------------------------------------------------------*/
+
+/*-----------------------------------------------------------------------------
+* VIDEO Widget
+-----------------------------------------------------------------------------*/
+.select_video {
+  width: 7em;
+}
+/*-----------------------------------------------------------------------------
+* end VIDEO
+-----------------------------------------------------------------------------*/
+
+/*-----------------------------------------------------------------------------
+* MA VIDEO Widget
+-----------------------------------------------------------------------------*/
+.select_mavideo {
+  width: 9em;
+}
+/*-----------------------------------------------------------------------------
+* end MA VIDEO
+-----------------------------------------------------------------------------*/
+
+/*-----------------------------------------------------------------------------
+* CUSTOMFORM Widget
+-----------------------------------------------------------------------------*/
+/* Tooltip */
+span.customform_tooltip_float_r {
+  display: block;
+  float: right;
+  padding: .2em .5em;
+}
+
+span.customform_tooltip {
+  margin-left: .4em;
+}
+
+span.customform_tooltip div {
+  background-color: #ffffff;
+  border-width: 2px;
+  border-style: solid;
+  border-color: #2E77C0;
+  color: #606060;
+  display: none;
+  padding: .7em;
+  position: fixed;
+  white-space: normal;
+  width: 15em;
+  z-index: 100;
+}
+
+  span.customform_tooltip div.wide {
+    width: 20em;
+  }
+  
+  span.customform_tooltip div p {
+    margin: .6em 0;
+    font-size: 16px;
+    font-family: Arial;
+  }
+  
+  span.customform_tooltip.hover {
+    cursor: help;
+  }
+/*-----------------------------------------------------------------------------
+* end CUSTOMFORM
+-----------------------------------------------------------------------------*/
+
+/*-----------------------------------------------------------------------------
+* PHOTOGALLERY WIDGET
+-----------------------------------------------------------------------------*/
+
+/* this is the image list box */
+#photo_list_container {
+  margin            : 1em 1em 0 0; 
+  width             : 250px; 
+  height            : 300px; 
+  overflow          : scroll; 
+  border            : 1px solid #d5e0f1; 
+  float             : left; 
+  clear             : left; 
+  background-color  : white;
+  padding           : .3em .2em;
+}
+
+#photo_list_container ul {
+  padding           : 0;
+  margin            : 0;
+  list-style-type   : none;
+}
+#photo_list_container li {
+  padding           : 0;
+  margin            : 0;
+  display           : block;
+  min-height        : 18px;
+  line-height       : 18px;
+  clear             : both;
+}
+#photo_list_container li ul {
+  display           : none;
+  clear             : both;
+  padding           : 0;
+  margin            : 0;
+}
+
+#photo_list_container li a,
+#photo_list_container li span {
+  display           : inline;
+  float             : left;
+  line-height       : 16px;
+  height            : 16px;
+  padding           : 1px 4px 1px 4px !important;
+  color             : black;
+  white-space       : nowrap;
+  text-decoration   : none;
+  border            : 0;
+  margin            : 0;
+  -moz-border-radius: 3px;
+}
+
+#photo_list_container li a, #photo_list_container li a:hover, #photo_list_container li span {
+  padding           : 0 3px 0 5px !important;
+  text-decoration   : none;
+  color             : #606060;
+  border            : 1px solid #FFFFFF; 
+  background-color  : #FFFFFF;
+}
+
+#photo_list_container li a.clicked, #photo_list_container li a.clicked:hover, #photo_list_container li span.clicked {
+  background-color  : #BEEBFF;
+  border            : 1px solid #99DEFD; 
+}
+
+#photo_list_container li a:hover, #photo_list_container li a.hover {
+  background-color  : #E7F4F9;
+  border            : 1px solid #D8F0FA; 
+}
+
+/* this is the css for manage_images.html */
+#converting_images,
+#converting_images_errors{
+  color             : #FF0000;
+  font-weight       : bold; 
+  font-size         : 1em; 
+  padding-left      : 25px;
+}
+#converting_images span,
+#converting_images_errors span{
+  display           : none;
+  padding           : 0;
+  margin            : 0;
+}
+
+/* this is the actual photogallery html */
+#photo_list {
+  margin-top: 1em; 
+  margin-bottom: 1em; 
+  width: 420px;
+  padding: .3em 1em .4em .7em; 
+  float: left; 
+  clear: right; 
+}
+
+#photo_list_title {
+  background: #FFFFCC; 
+  color: #606060;
+  padding: .3em 1em .4em .7em; 
+  margin: 0;
+}
+
+  #photo_list_title h4 {
+    display: inline;
+    padding           : 0;
+    margin            : 0;
+  }
+
+  #photo_list_title div.item_actions {
+    padding-left: 3em;
+    position: relative;
+    top: 0.1em;
+    display: inline;
+  }
+
+    #photo_list_title div.item_actions span {
+      padding: 0 .4em;
+      display: none;
+      margin: 0;
+    }
+
+#photo_list_content {
+  margin: 1em;
+  display: none;
+}
+
+#photo_list_content td {
+  padding: .3em .7em;
+  margin: 0;
+}
+
+/* ==================================== */
+/* Shared among All Photogalleries      */
+/* ==================================== */
+.photogallery_pointer {
+  cursor: pointer;
+  cursor: hand;
+}
+
+.spinner {
+  background          : url('/static/designs/images/repository/../../../../static/images/global/photogallery/spinner.gif');
+  background-position: center center;
+  background-repeat:no-repeat;
+}
+
+#rot div.photogallery_widget.single_image div.photogallery_container div.images_container li,
+#rot div.photogallery_widget.grid div.photogallery_container div.images_container li,
+#rot div.photogallery_widget.filmstrip_1 div.photogallery_container div.images_container li,
+#rot div.photogallery_widget.filmstrip_2 div.photogallery_container div.images_container li,
+#rot div.photogallery_widget.slideshow div.photogallery_container div.images_container li {
+    padding   : 0;
+    margin    : 0;
+}
+
+/* ==================================== */
+/* Single Image and Slideshow           */
+/* ==================================== */
+#rot div.photogallery_widget.single_image,
+#rot div.photogallery_widget.slideshow { 
+  /* background-color    : orange; */
+  position            : relative;
+  padding             : 0;
+  margin              : 0;
+}
+  #rot div.photogallery_widget.single_image div.photogallery_container, 
+  #rot div.photogallery_widget.slideshow div.photogallery_container {
+    margin              : 0;
+    padding             : 0;
+  }
+
+    /* single_image button controls */
+    #rot div.photogallery_widget.single_image div.photogallery_container span.left_button,
+    #rot div.photogallery_widget.slideshow div.photogallery_container span.left_button {
+      display           : none; 
+      padding           : 0;
+      margin            : 0;
+    }
+
+    /* single_image button controls */
+    #rot div.photogallery_widget.single_image div.photogallery_container span.left_button {
+      position          : absolute;
+    }
+
+    #rot div.photogallery_widget.single_image div.photogallery_container span.left_button,
+    #rot div.photogallery_widget.single_image div.photogallery_container span.right_button {
+    /*  display           : none; */
+      position          : absolute;
+      z-index           : 10005;
+      cursor            : pointer;
+      top               : 45%;
+    }
+    #rot div.photogallery_widget.single_image div.photogallery_container span.left_button {
+      left              : 0px;
+      padding-left      : 5px;  
+      padding-right     : 5px;  
+      margin            : 0;
+    }
+    #rot div.photogallery_widget.single_image div.photogallery_container span.right_button {
+      right             : 0px;
+      padding-left      : 5px;  
+      padding-right     : 5px;  
+      margin            : 0;
+    }
+
+    /* slideshow buttons */
+    #rot div.photogallery_widget.slideshow div.photogallery_container span.pause_button,
+    #rot div.photogallery_widget.slideshow div.photogallery_container span.right_button {
+      position          : absolute;
+      z-index           : 10005;
+      cursor            : pointer;
+      margin            : 0;
+      padding           : 0;
+    }
+    #rot div.photogallery_widget.slideshow div.photogallery_container span.pause_button{
+      display           : none; 
+      padding           : 0;
+      margin            : 0;
+    }
+
+    #rot div.photogallery_widget.slideshow div.photogallery_container span.pause_button,
+    #rot div.photogallery_widget.slideshow div.photogallery_container span.right_button {
+      position          : absolute;
+      z-index           : 10005;
+      cursor            : pointer;
+      bottom            : 5%;
+      right             : 5%;
+    }
+
+    /* Loading Message */
+    #rot div.photogallery_widget.single_image div.photogallery_container div.loading_container,
+    #rot div.photogallery_widget.slideshow div.photogallery_container div.loading_container {
+      display           : none;
+      position          : absolute;
+      z-index           : 10003;
+      background-color  : #FFFFFF;
+      width             : 100%;
+      height            : 100%;
+    }
+    #rot div.photogallery_widget.single_image div.photogallery_container div.loading_container div.loading_message,
+    #rot div.photogallery_widget.slideshow div.photogallery_container div.loading_container div.loading_message {
+      text-align        : center;
+      font-family       : tahoma;
+      font-size         : 12.8;
+      color             : #0000FF;
+      font-weight       : bold;
+    }
+
+    /* Images */
+    #rot div.photogallery_widget.single_image div.photogallery_container div.images_container,
+    #rot div.photogallery_widget.slideshow div.photogallery_container div.images_container {
+      /* background-color  : blue; */
+      overflow          : hidden;
+      padding           : 0;
+      margin            : 0;
+    }
+    #rot div.photogallery_widget.single_image div.photogallery_container div.images_container ul,
+    #rot div.photogallery_widget.slideshow div.photogallery_container div.images_container ul {
+      list-style        : none;
+      padding           : 0;
+      margin            : 0;
+    }
+    #rot div.photogallery_widget.single_image div.photogallery_container div.images_container li,
+    #rot div.photogallery_widget.slideshow div.photogallery_container div.images_container li{
+      float             : left;
+      padding           : 0;
+      margin            : 0;
+    }
+    #rot div.photogallery_widget.single_image div.photogallery_container div.images_container img,
+    #rot div.photogallery_widget.slideshow div.photogallery_container div.images_container img{
+      border            : 0; 
+      padding           : 0;
+      margin            : 0;
+    }
+
+    /* Description */
+    /* ---------------------------------------------- */
+    #rot div.photogallery_widget.single_image div.photogallery_container div.description_container,
+    #rot div.photogallery_widget.slideshow div.photogallery_container div.description_container {
+      position          : relative;
+      bottom            : 0;
+      width             : 100%;
+      z-index           : 10000;
+      padding           : 0;
+      margin            : 0;
+    }
+    #rot div.photogallery_widget.single_image div.photogallery_container div.description_container p,
+    #rot div.photogallery_widget.slideshow div.photogallery_container div.description_container p {
+      font-family       : tahoma; /* all overwritten by global prop */
+      color             : #54462f;
+      font-size         : 12.8;
+      font-weight       : bold;
+      font-style        : normal;
+      text-align        : center;
+      text-decoration   : none;
+      text-transform    : none;
+      padding           : 5px; 
+      margin            : 0;
+    }
+
+
+/* ==================================== */
+/* Filmstrip 1 & 2 & Grid               */
+/* ==================================== */
+#rot div.photogallery_widget.grid,  
+#rot div.photogallery_widget.filmstrip_1,  
+#rot div.photogallery_widget.filmstrip_2 { 
+  padding             : 0px;
+  margin              : 0px;
+}
+#rot div.photogallery_widget.filmstrip_1,
+#rot div.photogallery_widget.filmstrip_2 {
+  /* padding-bottom      : 5px; */
+}
+
+  #rot div.photogallery_widget.grid,  
+  #rot div.photogallery_widget.filmstrip_1 div.photogallery_container,
+  #rot div.photogallery_widget.filmstrip_2 div.photogallery_container {
+    margin              : 0px;
+    padding             : 0px;
+  }
+    #rot div.photogallery_widget.filmstrip_1 div.main_image_container, 
+    #rot div.photogallery_widget.filmstrip_2 div.main_image_container {
+      margin            : 0px;
+      padding           : 0px;
+    } 
+    #rot div.photogallery_widget.filmstrip_1 div.photogallery_container div.photogallery_thumbnail_container,
+    #rot div.photogallery_widget.filmstrip_2 div.photogallery_container div.photogallery_thumbnail_container {
+      margin            : 0px;
+      padding           : 0px;
+    }
+
+    /* Pagination */
+    #rot div.photogallery_widget.filmstrip_1 div.photogallery_container div.pagination_container {
+      display           : none; 
+    }
+
+
+    #rot div.photogallery_widget.grid div.photogallery_container div.pagination_container,
+    #rot div.photogallery_widget.filmstrip_2 div.photogallery_container div.pagination_container {
+      position          : relative;
+      float             : left;
+      border            : 0;
+      margin            : 0;
+      padding           : 0;
+      z-index           : 10003;
+      width             : 100%;
+      line-height       : 30px;
+    }
+    #rot div.photogallery_widget.grid div.photogallery_container div.pagination_container {
+      /* position          : absolute; */
+      bottom            : 0;
+    }
+    #rot div.photogallery_widget.filmstrip_2 div.photogallery_container div.pagination_container {
+      clear             : both;
+    }
+
+    #rot div.photogallery_widget.grid div.photogallery_container div.pagination_container div.pagination {
+      float             : right;
+      padding-left      : 15px;
+      padding-right     : 10px;
+      padding-top       : 0px;
+      padding-bottom    : 0px;
+      margin            : 0px;
+    }
+    #rot div.photogallery_widget.filmstrip_2 div.photogallery_container div.pagination_container div.pagination {
+      text-align        : right;
+      float             : right;
+      padding-left      : 0px; 
+      padding-right     : 5px;
+      padding-top       : 0px; 
+      padding-bottom    : 0px;
+      margin-top        : 0px;
+      margin-bottom     : 0px;
+      margin-left       : 0px;
+      margin-right      : 0px;
+    }
+      #rot div.photogallery_widget.grid div.photogallery_container div.pagination_container div.pagination_controls {
+        float             : right;
+        padding-left      : 10px;
+        padding-right     : 10px;
+        padding-top       : 0px;
+        padding-bottom    : 0px;
+        margin            : 0px;
+      }
+
+    /* Description */
+    #rot div.photogallery_widget.filmstrip_1 div.photogallery_container div.description_container {
+      overflow          : scroll;
+      clear             : both; 
+      width             : 100%;
+      z-index           : 10000;
+      text-align        : center;
+      padding           : 0;
+      margin            : 0;
+    }
+    #rot div.photogallery_widget.filmstrip_1 div.photogallery_container div.description_container p {
+      font-family       : tahoma; /* all overwritten by global prop */
+      color             : #54462f;
+      font-size         : 12.8;
+      font-weight       : bold;
+      font-style        : normal;
+      text-align        : center;
+      text-decoration   : none;
+      text-transform    : none;
+      padding           : 5px;
+      margin            : 0;
+    }
+
+    /* Button Controls */
+    #rot div.photogallery_widget.grid div.photogallery_container span.left_button,
+    #rot div.photogallery_widget.grid div.photogallery_container span.right_button, 
+    #rot div.photogallery_widget.filmstrip_1 div.photogallery_container div.photogallery_thumbnail_container span.left_button,
+    #rot div.photogallery_widget.filmstrip_1 div.photogallery_container div.photogallery_thumbnail_container span.right_button, 
+    #rot div.photogallery_widget.filmstrip_2 div.photogallery_container div.photogallery_thumbnail_container span.left_button,
+    #rot div.photogallery_widget.filmstrip_2 div.photogallery_container div.photogallery_thumbnail_container span.right_button {
+      color             : #000;
+      z-index           : 10005;
+      cursor            : pointer;
+      padding           : 0px;
+      margin            : 0px;
+    }
+    #rot div.photogallery_widget.filmstrip_1 div.photogallery_container div.photogallery_thumbnail_container span.left_button,
+    #rot div.photogallery_widget.filmstrip_2 div.photogallery_container div.photogallery_thumbnail_container span.left_button {
+      float             : left;
+      padding-right     : 0px;
+      padding-left      : 5px;    /* This is overriden by display options */
+    }
+
+    #rot div.photogallery_widget.filmstrip_1 div.photogallery_container div.photogallery_thumbnail_container span.right_button,
+    #rot div.photogallery_widget.filmstrip_2 div.photogallery_container div.photogallery_thumbnail_container span.right_button{
+      float             : left;
+      padding-left      : 0px;
+      padding-right     : 5px;
+    }
+
+    /* Images */
+    #rot div.photogallery_widget.grid div.photogallery_container div.images_container,
+    #rot div.photogallery_widget.filmstrip_1 div.photogallery_container div.images_container,
+    #rot div.photogallery_widget.filmstrip_2 div.photogallery_container div.images_container {
+      overflow          : hidden;   
+      float             : left;
+      padding           : 0;
+      margin            : 0;
+      border            : 0;
+    }
+
+    #rot div.photogallery_widget.grid div.photogallery_container div.images_container ul,
+    #rot div.photogallery_widget.filmstrip_1 div.photogallery_container div.images_container ul,
+    #rot div.photogallery_widget.filmstrip_2 div.photogallery_container div.images_container ul {
+      list-style        : none;
+      padding           : 0;
+      margin            : 0;
+      border            : 0;
+    }
+
+    #rot div.photogallery_widget.grid div.photogallery_container div.images_container li,
+    #rot div.photogallery_widget.filmstrip_1 div.photogallery_container div.images_container li,
+    #rot div.photogallery_widget.filmstrip_2 div.photogallery_container div.images_container li{
+      float             : left;
+      padding           : 0;
+      margin            : 0;
+      border            : 0;
+    }
+
+    #rot div.photogallery_widget.filmstrip_1 div.photogallery_container div.images_container li img{
+      border            : solid 3px #FFF;
+      margin            : 0;
+      padding           : 0;
+    }
+
+    #rot div.photogallery_widget.filmstrip_1 div.photogallery_container div.images_container li.img_selected img{
+      border            : solid 3px #F29C21;
+    }
+
+    #rot div.photogallery_widget.grid div.photogallery_container div.images_container li img,
+    #rot div.photogallery_widget.filmstrip_2 div.photogallery_container div.images_container li img{
+      float             : left;
+      margin            : 0;
+      padding           : 0;
+      border            : 0;
+    }
+
+    /* Loading Message */
+    #rot div.photogallery_widget.filmstrip_1 div.photogallery_container div.loading_container, 
+    #rot div.photogallery_widget.filmstrip_2 div.photogallery_container div.loading_container {
+      display           : none;
+      z-index           : 10003;
+      position          : absolute;
+      background-color  : #FFFFFF;
+      width             : 342px;
+      height            : 110px;
+      float             : left;
+      line-height       : 110px;
+      margin-left       : 29;
+      border            : 0;
+      padding           : 0;
+    }
+    #rot div.photogallery_widget.grid div.photogallery_container div.loading_container {
+      display           : none;
+      position          : absolute;
+      z-index           : 10003;
+      background-color  : #FFFFFF;
+      line-height       : 400px;
+      width             : 100%;
+      height            : 100%;
+    }
+    #rot div.photogallery_widget.filmstrip_2 div.photogallery_container div.loading_container {
+      margin-top        : 30px;
+      margin-bottom     : 0;
+      margin-right      : 0;
+      margin-left       : 0;
+      padding           : 0;
+    }
+
+    #rot div.photogallery_widget.grid div.photogallery_container div.loading_message,
+    #rot div.photogallery_widget.filmstrip_1 div.photogallery_container div.loading_message,
+    #rot div.photogallery_widget.filmstrip_2 div.photogallery_container div.loading_message {
+      text-align        : center;
+      font-family       : tahoma;
+      font-size         : 12.8;
+      color             : #0000FF;
+      font-weight       : bold;
+    }
+
+/* ================================================================================= */
+/* This is used for photogalleries that use pop ups to display images                */
+/* i had to modify this from the thumbnails to take into account custom              */
+/* height/width and text and also to modify the border for the description.          */
+/* ================================================================================= */
+
+.photogallery_overlay {
+  height  : 100%;
+  left    : 0;
+  position: fixed;
+  top     : 0;
+  width   : 100%;
+  padding : 0;
+  margin  : 0;
+}
+
+.photogallery_thumbnail_overlay {
+  background-color    : #000;
+  filter              : alpha(opacity=80);
+  opacity             : .8;
+}
+
+div.photogallery_preview_description {
+  padding-left        : 10px;
+  padding-right       : 0px;
+  text-align          : left;
+  background          : #FFF;
+}
+
+div.photogallery_preview_description p{
+  padding-top         : 1px;
+  padding-bottom      : 1px;
+  margin              : 0;
+  padding-right       : 0;
+  padding-left        : 0;
+}
+
+div.photogallery_preview_window {
+  display             : none;
+  left                : 50%;
+  position            : fixed;
+  top                 : 50%;
+  z-index             : 10101;
+  background          : #000; 
+  border              : 6px solid #000;
+  /* background          : orange; */
+}
+
+div.photogallery_preview_window img {
+  /* padding             : 5px; */
+  background          : #FFF;
+  margin              : 0;
+  padding             : 0;
+}
+
+div.photogallery_preview_window div.photogallery_preview_close {
+  background          : transparent url('/static/designs/images/repository/../../../../static/images/global/circle_close_black.png') repeat scroll 0 0;
+  height              : 30px;
+  left                : -16px;
+  position            : absolute;
+  top                 : -16px;
+  width               : 30px;
+}
+
+/* Copied from thumbnails.css */
+
+* html div.photogallery_thumbnail_overlay { /* ie6 hack */
+  position: absolute;
+  height: expression(document.body.scrollHeight > document.body.offsetHeight ? document.body.scrollHeight : document.body.offsetHeight + 'px');
+}
+
+* html div.photogallery_preview_window { /* ie6 hack */
+  position: absolute;
+  margin-top: expression(0 - parseInt(this.offsetHeight / 2) + (TBWindowMargin = document.documentElement && document.documentElement.scrollTop || document.body.scrollTop) + 'px');
+}
+/*-----------------------------------------------------------------------------
+* end PHOTOGALLERY WIDGET
+-----------------------------------------------------------------------------*/
+
+/*-----------------------------------------------------------------------------
+* start Twitter Feed WIDGET
+-----------------------------------------------------------------------------*/
+#rot #rot_ctr1 div.twitterfeed p {
+  padding: 0;
+}
+
+#rot div.twitterfeed div.twitterfeed_body_wrapper {
+  clear: both;
+  display: block;
+  padding 0 1em;
+}
+
+#rot div.twitterfeed div.twitterfeed_footer_wrapper {
+  clear: both;
+  display: block;
+  padding: 0.5em 0.5em 0.5em 1em;
+}
+
+#rot div.twitterfeed div.twitterfeed_header {
+  clear: both;
+  display: block;
+}
+
+#rot div.twitterfeed div.twitterfeed_header_wrapper {
+  padding: 0.5em 0.5em 0.5em 1em;
+}
+
+#rot div.twitterfeed div.twitterfeed_name {
+  clear: both;
+  display: block;
+  padding: 0;
+}
+
+#rot div.twitterfeed div.twitterfeed_name p {
+  padding: 0;
+}
+
+#rot div.twitterfeed div.twitterfeed_username {
+  clear: both;
+  display: block;
+}
+
+#rot div.twitterfeed div.twitterfeed_header_image_wrapper {
+  padding: 0 0.5em 0 0;
+}
+
+  #rot div.twitterfeed div.twitterfeed_header_image_wrapper img {
+    height: 48px;
+    width:  48px;
+  }
+
+#rot div.twitterfeed div.twitterfeed_tweet_entry {
+  padding: 0.2em 1em;
+}
+
+#rot div.twitterfeed div.twitterfeed_tweet_entry_divider {
+  border-bottom: 1px dotted #999;
+  margin: 0 0.5em;
+}
+
+#rot div.twitterfeed div.twitterfeed_tweet_text p {
+  padding: 0;
+}
+
+
+#rot div.twitterfeed div.twitterfeed_tweet_time p {
+  font-weight: bold;
+  padding: 0;
+}
+
+#rot div.twitterfeed div.twitterfeed_user_info {
+  padding: 0 0.5em 0 0;
+}
+
+#rot div.twitterfeed div.twitterfeed_user_stats {
+  clear: both;
+}
+
+#rot div.twitterfeed div.twitterfeed_user_stats p {
+  padding: 0;
+}
+
+/*-----------------------------------------------------------------------------
+* end Twitter Feed WIDGET
+-----------------------------------------------------------------------------*/
+
+/*-----------------------------------------------------------------------------
+* start Blogger Archive WIDGET
+-----------------------------------------------------------------------------*/
+#rot div.bloggerarchive ul {
+  padding: 0 0 0.25em;
+}
+/*-----------------------------------------------------------------------------
+* end Blogger Archive WIDGET
+-----------------------------------------------------------------------------*/
+
+/*-----------------------------------------------------------------------------
+* start WordPress Post WIDGET
+-----------------------------------------------------------------------------*/
+#rot div.wordpresspost div.caption_wrapper p.caption {
+  text-align: center;
+}
+/*-----------------------------------------------------------------------------
+* end WordPress Post WIDGET
+-----------------------------------------------------------------------------*/
+
+/*-----------------------------------------------------------------------------
+* start Website Search WIDGET
+-----------------------------------------------------------------------------*/
+#rot div.websitesearch {
+  font-size: 0.8em;
+  vertical-align: middle;
+}
+
+#rot div.websitesearch input.website_search_input {
+  font-size: 1em;
+  vertical-align: middle;
+}
+
+  #rot div.websitesearch button.search_submit {
+    font-size: 1em;
+  }
+
+  #rot div.websitesearch .button_select {
+    vertical-align: middle;
+  }
+
+  #rot div.websitesearch .button_select_container {
+    background-color: #CCC;
+    cursor: pointer;
+    padding: 0.3em;
+    vertical-align: text-bottom;
+  }
+
+    #rot div.websitesearch .button_select_container .button_select_label.hover {
+      background-color: #CCC;
+    }
+
+
+  #rot div.websitesearch .button_select_dropdown_container {
+    border: 1px solid #CCC;
+    z-index: 5000;
+  }
+
+    #rot div.websitesearch .button_select_dropdown_container .button_select_option {
+      padding: 0.2em 0;
+      cursor: pointer;
+    }
+
+      #rot div.websitesearch .button_select_dropdown_container .button_select_option span {
+        color: #000;
+        padding: 0 0.4em;
+      }
+
+  #rot div.websitesearch .button_select_expand_btn {
+    color: #000;
+    border-left: 1px dotted;
+  }
+
+    #rot div.websitesearch .button_select_expand_btn.expanded, div.websitesearch .button_select_expand_btn.hover {
+      background-color: #CCC;
+    }
+
+    #rot div.websitesearch .button_select_expand_btn span {
+      padding: 0 0.2em 0 0.4em;
+    }
+
+  #rot div.websitesearch .button_select_label span {
+    color: #000;
+    padding-left: 0.3em;
+    padding-right: 0.3em;
+  }
+
+  #rot div.websitesearch .button_select_dropdown_container {
+    position: absolute;
+    background-color: #FFF;
+  }
+
+    #rot div.websitesearch .button_select_dropdown_container div.hover {
+      background-color: #CCC;
+    }
+
+/*-----------------------------------------------------------------------------
+* end Website Search WIDGET
+-----------------------------------------------------------------------------*/
+
+/*-----------------------------------------------------------------------------
+* start Website Search Area WIDGET
+-----------------------------------------------------------------------------*/
+#rot #rot_ctr1 div.websitesearcharea p {
+  padding: 0;
+}
+
+  #rot #rot_ctr1 div.websitesearcharea div.websitesearcharea_results .form-button a {
+    background-color:#F5F5F5;
+    border-color:#EEEEEE #DEDEDE #DEDEDE #EEEEEE;
+    border-right:1px solid #DEDEDE;
+    border-style:solid;
+    border-width:1px;
+    color:#565656;
+    cursor:pointer;
+    display:block;
+    float:right;
+    font-family:"Lucida Grande",Tahoma,Arial,Verdana,sans-serif;
+    font-size:100%;
+    font-weight:normal;
+    line-height:130%;
+    margin:0 7px 0 0;
+    padding:2px 7px 3px;
+    text-decoration:none;
+  }
+
+  #rot #rot_ctr1 div.websitesearcharea div.websitesearcharea_results .catalog-listing .add-to li {
+    padding-left: 0;
+  }
+
+#rot div.websitesearcharea {
+  margin: 1em;
+}
+  #rot div.websitesearcharea div.websitesearcharea_header h3 {
+    font-weight: bold;
+  }
+
+  #rot div.websitesearcharea div.websitesearcharea_navigation {
+    float: right;
+  }
+
+  #rot div.websitesearcharea dl {
+    margin: 1em 0;
+  }
+
+/*-----------------------------------------------------------------------------
+* end Website Search WIDGET
+-----------------------------------------------------------------------------*/
+
+
+/*-----------------------------------------------------------------------------
+* START LIGHTBOX  
+-----------------------------------------------------------------------------*/
+/**
+ * jQuery lightBox plugin
+ * This jQuery plugin was inspired and based on Lightbox 2 by Lokesh Dhakar (http://www.huddletogether.com/projects/lightbox2/)
+ * and adapted to me for use like a plugin from jQuery.
+ * @name jquery-lightbox-0.5.css
+ * @author Leandro Vieira Pinho - http://leandrovieira.com
+ * @version 0.5
+ * @date April 11, 2008
+ * @category jQuery plugin
+ * @copyright (c) 2008 Leandro Vieira Pinho (leandrovieira.com)
+ * @license CC Attribution-No Derivative Works 2.5 Brazil - http://creativecommons.org/licenses/by-nd/2.5/br/deed.en_US
+ * @example Visit http://leandrovieira.com/projects/jquery/lightbox/ for more informations about this jQuery plugin
+ */
+#jquery-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 10090;
+  background-color: #000;
+  opacity: .8;
+  -ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=80)";
+  filter : alpha(opacity=80);
+}
+
+* html div.jquery-overlay { /* ie6 hack */
+  height: expression(document.body.scrollHeight > document.body.offsetHeight ? document.body.scrollHeight : document.body.offsetHeight + 'px'); */
+}
+
+#jquery-lightbox {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 10100;
+  text-align: center;
+  line-height: 0;
+}
+#jquery-lightbox a img { border: none; }
+#lightbox-container-image-box {
+  position: relative;
+  background-color: #fff;
+  width: 250px;
+  height: 250px;
+  margin: 0 auto;
+}
+#lightbox-container-image { padding: 10px; }
+#lightbox-loading {
+  position: absolute;
+  top: 40%;
+  left: 0%;
+  height: 25%;
+  width: 100%;
+  text-align: center;
+  line-height: 0;
+}
+#lightbox-nav {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  z-index: 10000;
+}
+#lightbox-container-image-box > #lightbox-nav { left: 0; }
+#lightbox-nav a { outline: none;}
+#lightbox-nav-btnPrev, #lightbox-nav-btnNext {
+  width: 49%;
+  height: 100%;
+  zoom: 1;
+  display: block;
+}
+#lightbox-nav-btnPrev { 
+  left: 0; 
+  float: left;
+}
+#lightbox-nav-btnNext { 
+  right: 0; 
+  float: right;
+}
+#lightbox-container-image-data-box {
+  font: 10px Verdana, Helvetica, sans-serif;
+  background-color: #fff;
+  margin: 0 auto;
+  line-height: 1.4em;
+  /* overflow: auto;*/
+  overflow: hidden;
+  width: 100%;
+  padding: 0 10px 0;
+}
+#lightbox-container-image-data {
+  padding: 0 10px; 
+  color: #666; 
+}
+#lightbox-container-image-data #lightbox-image-details { 
+  width: 100%; 
+  float: left; 
+  text-align: left; 
+  clear:both;
+} 
+#lightbox-image-details-caption { 
+  font-weight: bold; 
+  clear: both;
+}
+#lightbox-image-details-currentNumber {
+  position:absolute;
+  bottom: 0;
+}
+#lightbox-secNav{
+  height:22px;
+  width:100%;
+  position:relative;
+  clear:both;
+  padding:0;
+  margin:0;
+  text-align: left;
+}
+#lightbox-secNav-btnClose {
+  width: 66px;
+  float: right;
+  padding-bottom: 0.7em;
+}
+/*-----------------------------------------------------------------------------
+* END LIGHTBOX  
+-----------------------------------------------------------------------------*/
+
+/*-----------------------------------------------------------------------------
+* DATEPICKER
+-----------------------------------------------------------------------------*/
+
+div.datepicker {
+  padding-right: 1em;
+}
+
+div.datepicker td, div.datepicker th {
+  color: #000;
+  background-color: #fff;
+  line-height: 1;
+}
+
+div.datepicker input {
+  width: 9em;
+}
+
+div.datepicker div.datepicker_container {
+  color: #000;
+  background-color: white;
+}
+
+div.datepicker div.close {
+  position: relative;
+ /* float: right; */
+}
+
+div.datepicker div.popup {
+  display: none;
+  position: absolute;
+  z-index: 2;
+}
+
+div.datepicker div.fixed {
+  display: block;
+}
+
+div.datepicker table.calendar {
+  background-color: #FFFFFF;
+  border-collapse: collapse;
+  border-spacing: 0px;
+  border-style: solid;
+  border-width: 2px 2px 2px 2px;
+  font-size: x-small;
+  padding:  0px;
+  width: 124px;
+}
+
+div.datepicker table.calendar_full {
+  border-width: 2px 2px 2px 2px;
+}
+
+div.datepicker table.calendar_no_right {
+  border-width: 2px 0px 2px 2px;
+}
+
+div.datepicker table.calendar_no_top{
+  border-width: 0px 2px 2px 2px;
+}
+
+div.datepicker table.calendar th.dayname {
+  border-style: solid;
+  border-width: 1px 0px 0px 0px;
+}
+
+div.datepicker table.calendar td.day {
+  text-align: center;
+  border-style: solid;
+  border-width: 1px 0px 0px 0px;
+  padding: 0px;
+}
+
+div.datepicker table.calendar td.date_picked {
+  font-weight: bold;
+  background-color: #4787C7;
+  color: #FFFFFF;
+}
+
+div.datepicker table.calendar td.nonselectable {
+  font-style: italic;
+  background-color: #D5E0F1;
+}
+
+div.datepicker table.calendar td.selectable:hover {
+  background-color: #4787C7;
+  color: #FFFFFF;
+}
+
+div.datepicker table.calendar th.month_year {
+  font-size: x-small;
+}
+
+/*-----------------------------------------------------------------------------
+* END DATEPICKER
+-----------------------------------------------------------------------------*/
+
+
+/* -------- Start Static Standard Mobile Footer ---------*/
+.ecom_standard #device_view {
+  display: none;
+}
+
+#device_view.standard {
+  background: #fff;
+  border-top: 1px solid #666;
+  bottom: 0;
+  padding: 5px 0;
+  position: absolute;
+  text-align: center;
+  width: 100%;
+}
+
+  #device_view.standard a,
+  #device_view.standard a:active,
+  #device_view.standard a:visited,
+  #device_view.standard .top {
+    color: #4787C7;
+    cursor: pointer;
+    text-decoration: underline;
+  }
+
+/* -------- End Static Standard Mobile Footer -----------*/
+
+/* ---------- Start Full Month Calendar Widget ----------*/
+div.fullmonthcalendar .fullmonthcalendar_title {
+  padding: 0 1em 1em;
+}
+
+div.fullmonthcalendar .fc-header-left .fc-button-prev {
+  margin-left: 1em;
+}
+  div.fullmonthcalendar .fc-border-separate tbody tr td.weekend {
+    background-color: #F3F3F3;
+  }
+
+/*  div.fullmonthcalendar .fc-view {
+    overflow: auto;
+  }*/
+
+/* ----------- End Full Month Calendar Widget -----------*/
+
+/* ---------- Start Full Week Calendar Widget -----------*/
+div.fullweekcalendar .fullweekcalendar_title {
+  padding: 0 1em 1em;
+}
+
+div.fullweekcalendar .fc-header-left .fc-button-prev {
+  margin-left: 1em;
+}
+
+  div.fullweekcalendar .fc-border-separate tbody tr td.weekend {
+    background-color: #F3F3F3;
+  }
+
+
+/* ----------- End Full Week Calendar Widget ------------*/
+
+/* ------------ Start Week Calendar Widget --------------*/
+div.weekcalendar .weekcalendar_title {
+  padding: 0 1em 1em;
+}
+
+div.weekcalendar .fc-header-left .fc-button-prev {
+  margin-left: 1em;
+}
+
+  div.weekcalendar .fc-border-separate tbody tr td.weekend {
+    background-color: #F3F3F3;
+  }
+
+/* ------------- End Week Calendar Widget ---------------*/
+
+/* ------------ Start Day Calendar Widget --------------*/
+div.daycalendar .daycalendar_title {
+  padding: 0 1em 1em;
+}
+
+div.daycalendar .fc-header-left .fc-button-prev {
+  margin-left: 1em;
+}
+
+div.daycalendar .daycalendar_event {
+  border-bottom: 1px solid #CCC;
+  padding: 1em .5em;
+}
+
+div.daycalendar .daycalendar_event:last-child {
+  border-bottom: none;
+}
+
+div.daycalendar.fullcalendar .fc-view {
+  overflow: auto;
+}
+/* ------------- End Day Calendar Widget ---------------*/
+
+/* -------------- Start Full Calendar ------------------*/
+div.fullcalendar {
+  height: 100%;
+  width: 100%;
+}
+
+div.fullcalendar .fc {
+  direction: ltr;
+  overflow: hidden;
+  text-align: left;
+  width: 100%;
+}
+
+  div.fullcalendar .fc .fc-content {
+    width: 100%;
+  }
+
+  div.fullcalendar .fullcalendar_title {
+    padding: 0 1em 1em;
+  }
+
+  div.fullcalendar .fc table {
+    border-collapse: collapse;
+    border-spacing: 0;
+    border-color: transparent;
+  }
+
+  div.fullcalendar html .fc, div.fullcalendar .fc table {
+    font-size: 1em;
+  }
+
+  div.fullcalendar .fc td, div.fullcalendar .fc th {
+    padding: 0;
+    vertical-align: top;
+  }
+
+  div.fullcalendar .fc-header td {
+    white-space: nowrap;
+  }
+
+  div.fullcalendar .fc-header-left {
+    text-align: left;
+    width: 25%;
+  }
+
+  div.fullcalendar .fc-header-center {
+    text-align: center;
+  }
+
+  div.fullcalendar .fc-header-right {
+    text-align: right;
+    width: 25%;
+  }
+
+  div.fullcalendar .fc-header-title {
+    display: inline-block;
+    vertical-align: top;
+  }
+  
+    div.fullcalendar .fc-header-title h2 {
+      margin-top: 0;
+      white-space: nowrap;
+    }
+
+/* not exactly what I like to do, but they wanted 20px padding by default and
+   the h2 was overwritting my CSS (which is why I added the #rot to the
+   selector) */
+#rot div.fullcalendar .fc-header-title h2 {
+  padding: 0 0 0 20px;
+}
+  
+  div.fullcalendar .fc .fc-header-space {
+    padding-left: 10px;
+  }
+  
+  div.fullcalendar .fc-header .fc-button {
+    margin-bottom: 1em;
+    margin-right: -1px;
+    vertical-align: top;
+  }
+
+  div.fullcalendar .fc-header .fc-corner-right {
+    margin-right: 1px;
+  }
+  
+  div.fullcalendar .fc-header .ui-corner-right {
+    margin-right: 0;
+  }
+
+  div.fullcalendar .fc-header .fc-state-hover, div.fullcalendar .fc-header .ui-state-hover {
+    z-index: 2;
+  }
+  
+  div.fullcalendar .fc-header .fc-state-down {
+    z-index: 3;
+  }
+  
+  div.fullcalendar .fc-header .fc-state-active, div.fullcalendar .fc-header .ui-state-active {
+    z-index: 4;
+  }
+  
+  div.fullcalendar .fc-view {
+    width: 100%;
+  }
+
+  div.fullcalendar .fc-widget-header, div.fullcalendar .fc-widget-content {
+    border: 1px solid;
+  }
+  
+  div.fullcalendar .fc-state-highlight {
+    background: #ffc;
+  }
+
+  div.fullcalendar .fc-cell-overlay {
+    background: #9cf;
+  }
+  
+  div.fullcalendar .fc-button {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+  }
+
+  div.fullcalendar .fc-button-content {
+    float: left;
+    height: 1.9em;
+    line-height: 1.9em;
+    padding: 0 .6em;
+    position: relative;
+    white-space: nowrap;
+  }
+
+    div.fullcalendar .fc-button-content .fc-icon-wrap {
+      float: left;
+      position: relative;
+      top: 50%;
+    }
+
+    div.fullcalendar .fc-button-content .ui-icon {
+      float: left;
+      margin-top: -50%;
+      position: relative;
+      *margin-top: 0;
+      *top: -50%;
+    }
+
+  div.fullcalendar .fc-button-inner {
+    float: left;
+    overflow: hidden;
+    position: relative;
+  }
+ 
+  div.fullcalendar .fc-state-default {
+    background: #F3F3F3;
+    border-color: #ccc;
+    border-style: solid;
+    border-width: 1px;
+  }
+ 
+  div.fullcalendar .fc-state-disabled {
+    cursor: default;
+  }
+  
+   div.fullcalendar .fc-state-disabled .fc-button-effect {
+    display: none;
+  }
+  
+  div.fullcalendar .fc-event {
+    border-style: solid;
+    border-width: 0;
+    cursor: pointer;
+    font-size: .85em;
+    line-height: 1;
+  }
+  
+  div.fullcalendar .fc-event-draggable {
+    cursor: pointer;
+  }
+  
+  div.fullcalendar a.fc-event {
+    cursor: pointer;
+    text-decoration: none;
+  }
+  
+  div.fullcalendar .fc-rtl .fc-event {
+    text-align: right;
+  }
+  
+  div.fullcalendar .fc-event-skin {
+    background-color: #36c;
+    border-color: #36c;
+    color: #fff;
+  }
+  
+  div.fullcalendar .fc-event-inner {
+    border-style: solid;
+    border-width: 0;
+    height: 100%;
+    overflow: hidden;
+    position: relative;
+    width: 100%;
+  }
+  
+  div.fullcalendar .fc-event-time {
+    padding: 0 1px;
+  }
+
+  div.fullcalendar .fc-event-title {
+    padding: .2em .4em;
+  }
+
+  div.fullcalendar .fc-event-description {
+    padding: .2em;
+  }
+ 
+  div.fullcalendar .fc .ui-resizable-handle { /*** TODO: don't use ui-resizable anymore, change class ***/
+    display: block;
+    font-size: 300%;  /* */
+    line-height: 50%; /* */
+    overflow: hidden; /* hacky spaces (IE6/7) */
+    position: absolute;
+    z-index: 99999;
+  }
+  
+  div.fullcalendar .fc-event-hori {
+    border-width: 1px 0;
+    margin-bottom: 1px;
+  }
+  
+  div.fullcalendar .fc-event-hori .ui-resizable-e {
+    cursor: e-resize;
+    height: 100%     !important;
+    right: -3px      !important;
+    top: 0           !important; /* importants override pre jquery ui 1.7 styles */
+    width: 7px       !important;
+  }
+  
+  div.fullcalendar .fc-event-hori .ui-resizable-w {
+    cursor: w-resize;
+    height: 100%     !important;
+    left: -3px       !important;
+    top: 0           !important;
+    width: 7px       !important;
+  }
+  
+  div.fullcalendar .fc-event-hori .ui-resizable-handle {
+    _padding-bottom: 14px; /* IE6 had 0 height */
+  }
+  
+  div.fullcalendar .fc-corner-left {
+    margin-left: 1px;
+  }
+  
+  div.fullcalendar .fc-corner-left .fc-button-inner, div.fullcalendar .fc-corner-left .fc-event-inner {
+    margin-left: -1px;
+  }
+  
+  div.fullcalendar .fc-corner-right {
+    margin-right: 1px;
+  }
+  
+  div.fullcalendar .fc-corner-right .fc-button-inner, div.fullcalendar .fc-corner-right .fc-event-inner {
+    margin-right: -1px;
+  }
+  
+  div.fullcalendar .fc-corner-top {
+    margin-top: 1px;
+  }
+  
+  div.fullcalendar .fc-corner-top .fc-event-inner {
+    margin-top: -1px;
+  }
+  
+  div.fullcalendar .fc-corner-bottom {
+    margin-bottom: 1px;
+  }
+  
+  div.fullcalendar .fc-corner-bottom .fc-event-inner {
+    margin-bottom: -1px;
+  }
+  
+  div.fullcalendar .fc-corner-left .fc-event-inner {
+    border-left-width: 1px;
+  }
+  
+  div.fullcalendar .fc-corner-right .fc-event-inner {
+    border-right-width: 1px;
+  }
+  
+  div.fullcalendar .fc-corner-top .fc-event-inner {
+    border-top-width: 1px;
+  }
+  
+  div.fullcalendar .fc-corner-bottom .fc-event-inner {
+    border-bottom-width: 1px;
+  }
+  
+  div.fullcalendar table.fc-border-separate {
+    border-collapse: separate;
+  }
+  
+    div.fullcalendar table.fc-border-separate tbody {
+      background-color: #FFF;
+    }
+    
+    div.fullcalendar table.fc-border-separate thead {
+      background-color: #F0F4FA;
+    }
+  
+    div.fullcalendar .fc-border-separate th, div.fullcalendar .fc-border-separate td {
+      border-width: 1px 0 0 1px;
+    }
+    
+    div.fullcalendar .fc-border-separate th.fc-last, div.fullcalendar .fc-border-separate td.fc-last {
+      border-right-width: 1px;
+    }
+    
+    div.fullcalendar .fc-border-separate tr.fc-last th, div.fullcalendar .fc-border-separate tr.fc-last td {
+      border-bottom-width: 1px;
+    }
+    
+    div.fullcalendar .fc-border-separate tbody tr.fc-first td, div.fullcalendar .fc-border-separate tbody tr.fc-first th {
+      border-top-width: 0;
+    }
+    
+/*    div.fullcalendar .fc-border-separate tbody tr td.weekend {
+      background-color: #F3F3F3;
+    }*/
+
+    div.fullcalendar .fc-border-separate tbody tr td.fc-state-highlight.fc-today {
+      background-color: #FFFFCC;
+    }
+
+    div.fullcalendar .fc-border-separate tbody tr td  {
+      background-color: #FFF;
+    }
+
+  div.fullcalendar .fc-grid th {
+    text-align: center;
+  }
+  
+  div.fullcalendar .fc-grid .fc-day-number {
+    float: right;
+    padding: 0 2px;
+  }
+  
+  div.fullcalendar .fc-grid .fc-day-content {
+    clear: both;
+/*    padding: 2px 2px 1px;*/
+    padding: 0;
+  }
+  
+  div.fullcalendar .fc-grid .fc-event-time {
+    font-weight: bold;
+  }
+  
+  /* right-to-left */
+  div.fullcalendar .fc-rtl .fc-grid .fc-day-number {
+    float: left;
+  }
+  
+  div.fullcalendar .fc-rtl .fc-grid .fc-event-time {
+    float: right;
+  }
+  
+  div.fullcalendar .fc-agenda table {
+    border-collapse: separate;
+  }
+  
+  div.fullcalendar .fc-agenda-days th {
+    text-align: center;
+  }
+  
+  div.fullcalendar .fc-agenda .fc-agenda-axis {
+    font-weight: normal;
+    padding: 0 4px;
+    text-align: right;
+    vertical-align: middle;
+    white-space: nowrap;
+    width: 50px;
+  }
+  
+  div.fullcalendar .fc-agenda .fc-day-content {
+    padding: 2px 2px 1px;
+  }
+  
+  div.fullcalendar .fc-agenda-days .fc-agenda-axis {
+    border-right-width: 1px;
+  }
+  
+  div.fullcalendar .fc-agenda-days .fc-col0 {
+    border-left-width: 0;
+  }
+  
+  div.fullcalendar .fc-agenda-allday th {
+    border-width: 0 1px;
+  }
+  
+  div.fullcalendar .fc-agenda-allday .fc-day-content {
+    min-height: 34px; /* TODO: doesnt work well in quirksmode */
+    _height: 34px;
+  }
+  
+  div.fullcalendar .fc-agenda-divider-inner {
+    height: 2px;
+    overflow: hidden;
+  }
+  
+  div.fullcalendar .fc-widget-header .fc-agenda-divider-inner {
+    background: #eee;
+  }
+  
+  /* slot rows */
+  div.fullcalendar .fc-agenda-slots th {
+    border-width: 1px 1px 0;
+  }
+  
+  div.fullcalendar .fc-agenda-slots td {
+    background: none;
+    border-width: 1px 0 0;
+  }
+  
+  div.fullcalendar .fc-agenda-slots td div {
+    height: 20px;
+  }
+  
+  div.fullcalendar .fc-agenda-slots tr.fc-slot0 th, div.fullcalendar .fc-agenda-slots tr.fc-slot0 td {
+    border-top-width: 0;
+  }
+  
+  div.fullcalendar .fc-agenda-slots tr.fc-minor th, div.fullcalendar .fc-agenda-slots tr.fc-minor td {
+    border-top-style: dotted;
+  }
+  
+  div.fullcalendar .fc-agenda-slots tr.fc-minor th.ui-widget-header {
+    *border-top-style: solid; /* doesn't work with background in IE6/7 */
+  }
+  
+  div.fullcalendar .fc-event-vert {
+    border-width: 0 1px;
+  }
+  
+  div.fullcalendar .fc-event-vert .fc-event-head, div.fullcalendar .fc-event-vert .fc-event-content {
+    overflow: hidden;
+    position: relative;
+    width: 100%;
+    z-index: 2;
+  }
+  
+  div.fullcalendar .fc-event-vert .fc-event-time {
+    font-size: 10px;
+    white-space: nowrap;
+  }
+  
+  div.fullcalendar .fc-event-vert .fc-event-bg { /* makes the event lighter w/ a semi-transparent overlay  */
+    background: #fff;
+    filter: alpha(opacity=30);
+    height: 100%;
+    left: 0;
+    opacity: .3;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    z-index: 1;
+  }
+  
+  div.fullcalendar .fc .ui-draggable-dragging .fc-event-bg, div.fullcalendar .fc-select-helper .fc-event-bg {
+    display: none\9; /* for IE6/7/8. nested opacity filters while dragging don't work */
+  }
+  
+  div.fullcalendar .fc-event-vert .ui-resizable-s {
+    bottom: 0        !important; /* importants override pre jquery ui 1.7 styles */
+    cursor: s-resize;
+    font-size: 11px  !important;
+    font-family: monospace;
+    height: 8px      !important;
+    line-height: 8px !important;
+    overflow: hidden !important;
+    text-align: center;
+    width: 100%      !important;
+  }
+  
+  div.fullcalendar .fc-agenda .ui-resizable-resizing {
+    _overflow: hidden;
+  }
+
+/* ----------------- End Full Calendar ------------------*/
+div.minimonthcalendar {
+  height: 100%;
+  width: 100%;
+}
+
+  div.minimonthcalendar th {
+    background: none;
+  }
+  
+  div.minimonthcalendar tr.weekdays th {
+    background-color: #FFF;
+  }
+
+div.minimonthcalendar .minimonthcalendar_title {
+
+}
+
+  div.minimonthcalendar .calendar_date {
+    text-align: center;
+  }
+
+  div.minimonthcalendar .mini_month_content td, div.minimonthcalendar .weekday_header th {
+    text-align: center;
+  }
+
+    div.minimonthcalendar .mini_month_content td.marked {
+      cursor: pointer;
+      font-weight: bold;
+      text-decoration: underline;
+    }
+
+    div.minimonthcalendar .mini_month_content td.today {
+      background: none repeat scroll 0 0 #8ba1d0;
+      color: #FFF;
+    }
+
+  div.minimonthcalendar .mini_month_entry_container {
+    width: 100%;
+  }
+
+  div.minimonthcalendar .mini_month_calendar_header {
+    text-align: center;
+  }
+
+  div.minimonthcalendar .minimonthcalendar_title {
+    text-align: center;
+  }
+
+  div.minimonthcalendar .month_navigation {
+    cursor: pointer;
+  }
+
+/* qTip jQuery Plugin CSS */ 
+#qtip-rcontainer{
+  position: absolute;
+  left: -28000px;
+  top: -28000px;
+  display: block;
+  visibility: hidden;
+}
+
+  /* Fluid class for determining actual width in IE */
+  #qtip-rcontainer .ui-tooltip{
+    display: block !important;
+    visibility: hidden !important;
+    position: static !important;
+    float: left !important;
+  }
+
+.qtip {
+  display: none;
+  font-size: .8em;
+  left: -28000px;
+  max-width: 34em;
+  min-width: 30em; 
+  top: -28000px;
+}
+
+  .qtip.editor {
+    position: absolute;
+  }
+
+  .qtip.live {
+    position: fixed;
+  }
+
+  .qtip .q_tip_event {
+    border-bottom: 1px solid;
+    padding: .2em .4em .4em;
+  }
+
+  .qtip .q_tip_event:last-child {
+    border-bottom: none;
+  }
+
+    .qtip .q_tip_event .event_date {
+      padding: .4em .2em;
+      min-width: 100%;
+      overflow: hidden;
+    }
+
+    .qtip .q_tip_event .event_description {
+      padding: .4em .2em;
+    }
+
+  .qtip .ui-tooltip-content{
+    position: relative;
+    overflow: hidden;
+    text-align: left;
+    word-wrap: break-word;
+  }
+
+  .qtip .ui-tooltip-content .event_title {
+    padding: .2em .4em;
+  }
+
+  .qtip .ui-tooltip-titlebar {
+    border-width: 0 0 1px;
+    font-weight: bold;
+    overflow: hidden;
+    padding: .2em .5em .2em .7em;
+    position: relative;
+  }
+
+    .qtip .ui-tooltip-titlebar div.ui-tooltip-title {
+      float: left;
+      min-height: 1.2em;
+    }
+
+    .qtip .ui-tooltip-titlebar .qtip_close {
+      cursor: pointer;
+      float: right;
+      text-decoration: underline;
+    }
+
+/*    .qtip .ui-tooltip-titlebar + .ui-tooltip-content {
+      border-top-width: 0 !important;
+    }*/
+
+    /* Default close button class */
+    .qtip .ui-tooltip-titlebar .ui-state-default{
+      border-style: solid;
+      border-width: 1px;
+      cursor: pointer;
+      margin-top: -.9em;
+      outline: medium none;
+      position: absolute;
+      right: .1em;
+      top: 50%;
+    }
+    
+    * html .qtip .ui-tooltip-titlebar .ui-state-default {
+      top: 16px; /* IE fix */
+    }
+
+/*    .qtip .ui-tooltip-titlebar .ui-icon, .qtip .ui-tooltip-icon .ui-icon{
+      direction: ltr;
+      display: block;
+      text-indent: -1000em;
+    }*/
+/*
+  .qtip .ui-tooltip-icon, .qtip .ui-tooltip-icon .ui-icon{
+    -moz-border-radius: 3px;
+    -webkit-border-radius: 3px;
+    border-radius: 3px;
+    text-decoration: none;
+  }
+
+    .qtip .ui-tooltip-icon .ui-icon{
+      background: transparent none no-repeat -100em -100em;
+      color: inherit;
+      height: 1.2em;
+      padding: 0 0 .35em;
+      text-align: center;
+      text-indent: 0;
+      width: 1.5em;
+    }
+
+    .qtip a.ui-tooltip-close {
+      font-size: 13px;
+      text-decoration: none;
+    }
+
+    .qtip .ui-tooltip-icon .ui-icon.ui-icon-close {
+      color: #900;
+      font-size: 1.7em;
+      font-weight: bold;
+      margin-top: -0.3em;
+      padding: 0;
+      width: 1em;
+    }*/
+
+
+   /* Default tooltip style */
+   .qtip.ui-tooltip-default{
+     border-width: 1px;
+     border-style: solid;
+     border-color: #F1D031;
+     background-color: #FFFFA3;
+     color: #555;
+   }
+/*
+     .qtip.ui-tooltip-default .ui-tooltip-icon{
+       border-color: #CCC;
+       background: #F1F1F1;
+       color: #777;
+     }*/
+ 
+     .qtip.ui-tooltip-default .ui-tooltip-titlebar {
+       background-color: #FFEF93;
+     }
+       
+       .qtip.ui-tooltip-default .ui-tooltip-titlebar .ui-state-hover{
+         border-color: #AAA;
+         color: #111;
+       }
+
+    .qtip.ui-tooltip-light {
+      background-color: #FFF;
+      border-color: #E2E2E2;
+      color: #454545;
+    }
+
+    .qtip.ui-tooltip-light .ui-tooltip-titlebar {
+       background-color: #f1f1f1;
+     }
+
+  /* IE9 fix - removes all filters */
+  .qtip.ui-tooltip:not(.ie9haxors) div.ui-tooltip-content,
+  .qtip.ui-tooltip:not(.ie9haxors) div.ui-tooltip-titlebar {
+    -ms-filter: none;
+    filter: none;
+  }
+  
+  /* Tips plugin */
+  .qtip.ui-tooltip .ui-tooltip-tip {
+    background: transparent;
+    border: 0 dashed transparent;
+    color: #123456;
+    font-size: .1px !important;
+    line-height: .1px !important;
+    margin: 0 auto;
+    overflow: hidden;
+    position: absolute;
+    z-index: 10;
+  }
+
+    .qtip.ui-tooltip .ui-tooltip-tip .qtip-vml{
+      background: transparent;
+      border: 0 dashed transparent;
+      color: #123456;
+      display: inline-block;
+      font-size: .1px !important;
+      line-height: .1px !important;
+      position: absolute;
+      visibility: visible;
+    }
+  
+    .qtip.ui-tooltip .ui-tooltip-tip canvas {
+      left: 0;
+      top: 0;
+    }
+
+
+/* qTip2 Modal plugin */
+#qtip-overlay {
+  left: -10000em;
+  position: fixed;
+  top: -10000em;
+}
+
+  #qtip-overlay.blurs {
+    cursor: pointer;
+  }
+
+  #qtip-overlay div {
+    -ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=80)";
+    background-color: black;
+    filter:alpha(opacity=80);
+    height: 100%;
+    left: 0;
+    opacity: 0.8;
+    position: absolute;
+    top: 0;
+    width: 100%;
+  }
+
+body {
+  background-color: #FFFFFF; background-image: url('../../miwa/miwa reference/background.jpg'); background-repeat: no-repeat; background-position: center 30%;
+}
+div#rot #rot_ctr1_bod_ctr2 {
+  width: 1089px;
+}
+div#rot #rot_ctr1_bod_ctr3 {
+  margin-bottom: 8px; border-left-width: 0px; border-right-width: 0px; border-top-width: 0px; border-bottom-width: 0px; background-color: transparent; width: 1089px; position: relative;
+}
+div#rot #rot_ctr1_bod_ctr3_bod_blk2_custom_blk1_custom {
+  width: 200px; float: none; position: absolute; margin-top: 33px; margin-left: 23px; clear: both;
+}
+div#rot #rot_ctr1_bod_ctr2_hdr {
+  width: 1089px;
+}
+div#rot #rot_ctr1_bod_ctr2_bod {
+  position: static; background-color: transparent; border-left-width: 0px; border-right-width: 0px; border-top-width: 0px; height: 0px; border-bottom-width: 0px; margin-left: 0px;
+}
+div#rot #rot_ctr1_bod_ctr2_ftr {
+  width: 1089px;
+}
+div#rot #rot_ctr1_bod_ctr3_hdr {
+  width: 1089px;
+}
+div#rot #rot_ctr1_bod_ctr3_bod {
+  width: 1089px; position: static;
+}
+div#rot #rot_ctr1 {
+  min-width: 0px; background-color: transparent; width: 1089px; border-left-width: 0px; border-right-width: 0px; border-top-width: 0px; border-bottom-width: 0px;
+}
+div#rot #rot_ctr1_hdr {
+  width: 1089px;
+}
+div#rot #rot_ctr1_bod {
+  background-color: transparent; width: 1089px;
+}
+div#rot #rot_ctr1_bod_ctr3_bod_blk1_custom {
+  z-index: 10012; width: 862px; float: none; margin-top: 20px; position: absolute; margin-left: 252px; clear: both; height: 127px; background-image: none;
+}
+div#rot #rot_ctr1_bod_ctr3_bod_blk2_custom {
+  background-color: #FFFFFF; width: 1089px; float: none; clear: both; height: 135px;
+}
+div#rot #rot_ctr1_bod_ctr3_bod_blk3_custom {
+  width: 1089px; float: none; z-index: 10002; position: relative; margin-top: -6px; margin-left: 9px; clear: both;
+}
+div#rot #rot_ctr1_bod_ctr3_bod_wrp1 {
+  width: 1087px; background-color: transparent; z-index: 10000; margin-top: -10px; position: relative;
+}
+#sep___21___ {}
+div#rot #rot_ctr1_bod_ctr2_bod ul {
+color: transparent;
+}
+div#rot #rot_ctr1_bod_ctr2_bod ul li a {
+color: transparent;
+}
+#rot #rot_ctr1 {
+  font-size: 18px;
+}
