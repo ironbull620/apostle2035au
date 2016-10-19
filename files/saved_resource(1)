@@ -1,0 +1,100 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+
+<html>
+<style type="text/css">
+<!--
+
+/*連結定義 */
+a:link {
+color: #F36000;
+}
+a:visited {
+color: #F36000;
+}
+a:hover {
+color: #F36000;
+}
+a:active {
+color: #F36000;
+}
+
+-->
+</style>
+<head>
+<title>Mytools雲端工具管理</title>
+<link rel="stylesheet" href="style.css" type="text/css">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+
+<script type="text/javascript">
+<!--
+function MM_goToURL() { //v3.0
+  var i, args=MM_goToURL.arguments; document.MM_returnValue = false;
+  for (i=0; i<(args.length-1); i+=2) eval(args[i]+".location='"+args[i+1]+"'");
+}
+//-->
+</script>
+</head>
+<body marginwidth="0" marginheight="0">
+
+
+<table width="732" border="0" align="center" cellpadding="0" cellspacing="0">
+  <tr>
+    <td width="732" height="41">&nbsp;</td>
+  </tr>
+  <tr>
+    <td><table width="489" height="527" border="0" align="center" cellpadding="0" cellspacing="0">
+      <tr>
+        <td width="495" height="188" valign="top"><p><img src="images/cloudlogin.png" width="799" height="322"></p>          </td>
+      </tr>
+      <tr>
+        <td height="221" onfocus="MM_showHideLayers('','','show')"><form action="/index.php" name="form1" method="POST">
+          <table width="200" border="0" align="center" cellpadding="0" cellspacing="1" bgcolor="#C1C6C6">
+            <tr>
+              <td><table width="301" height="149" border="0" align="center" cellpadding="0" cellspacing="0" bgcolor="#FFFFFF">
+                  <tr>
+                    <td><table width="303" border="0" align="center" cellpadding="3" cellspacing="2">
+                      <tr>
+                        <td width="79" align="right"><span class="font01">使用帳戶</span></td>
+                        <td colspan="2"><input name="mymail" type="text" class="click3" id="mymail"></td>
+                      </tr>
+                      <tr>
+                        <td align="right"><span class="font01">登入密碼</span></td>
+                        <td colspan="2"><input name="mypassword" type="password" class="click3" id="mypassword"></td>
+                      </tr>
+                      <tr>
+                        <td rowspan="2">&nbsp;</td>
+                        <td width="85" align="right" valign="middle"><input name="button" type="submit" class="click2" id="button" onClick="YY_checkform('form1','mymail','#S','2','請輸入登入帳號','mypassword','#q','0','請輸入密碼');return document.MM_returnValue" value="登入"></td>
+                        <td width="113" align="right" valign="middle"><div align="left"><span class="box">
+                            <input name="按鈕" type="button" class="click" onClick="MM_goToURL('parent','login.php');return document.MM_returnValue" value="註冊">
+                        </span> </div></td>
+                      </tr>
+                      <tr>
+                        <td align="right" valign="middle">&nbsp;</td>
+                        <td align="right" valign="middle"><div align="left"><span class="font02"><span class="font02"><a href="login_help.php">忘記您的密碼?</a></span></span></div></td>
+                      </tr>
+                    </table></td>
+                  </tr>
+              </table></td>
+            </tr>
+          </table>
+          </form>
+        <p align="center" class="font06">
+          </p>          </td>
+      </tr>
+    </table></td>
+  </tr>
+  <tr>
+    <td height="11"><script> 
+var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+            </script>
+                  <script> 
+try {
+var pageTracker = _gat._getTracker("UA-15924173-1");
+pageTracker._trackPageview();
+} catch(err) {}
+            </script></td>
+  </tr>
+</table>
+</body>
+</html>

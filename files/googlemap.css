@@ -1,0 +1,33 @@
+/*  Googlemap CSS for publich page */
+
+#to_here, #from_here {
+  color: blue;
+  cursor: pointer;
+}
+
+#directions_form {
+  height: 1em;
+  width: 1em;
+  white-space: nowrap;
+}
+
+.address_text {
+  font-weight: bold;
+}
+
+.directions_text {
+  padding-top: .5em;
+}
+
+.directions_start_address,
+.directions_end_address {
+  font-size: .8em;
+  color: grey;
+}
+
+    
+
+
+
+
+
