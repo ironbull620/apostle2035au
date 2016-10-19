@@ -1,0 +1,97 @@
+#rot #rot_ctr1_bod_ctr3_bod {
+   height: 595px;
+}
+
+/*Block Size, Positioning, Spacing, Background, Border*/
+/*******************************/
+#rot #rot_ctr1_bod_ctr3_bod_wrp1_blk1 {
+  	background: url('/static/designs/images/repository/bg_960x199_virtual_black_computer_man.png') center top no-repeat;
+	margin: 17px 0 0 0;
+    padding: 0;
+    width: 960px;
+	height: 199px;
+	float: left;
+}
+
+#rot #rot_ctr1_bod_ctr3_bod_wrp1_blk2 {
+  float: left;
+  margin: 8px 0 0 0;
+  padding:0;
+  width: 229px;
+  background: url('/static/designs/images/repository/util_1x3_dot_grey_transparent.gif') repeat-y right top;
+  overflow: hidden;
+
+}
+
+#rot #rot_ctr1_bod_ctr3_bod_wrp1_blk3 {
+  float: left;
+  margin: 8px 0 0 0;
+  overflow: hidden;
+  width: 502px;
+  background: url('/static/designs/images/repository/util_1x3_dot_grey_transparent.gif') repeat-y right top;
+}
+
+#rot #rot_ctr1_bod_ctr3_bod_wrp1_blk4 {
+  float: right;
+  margin: 8px 0 0 0;
+  overflow: hidden;
+  width: 229px;
+
+}
+
+#rot #rot_ctr1_bod_ctr3_bod_wrp1_blk2 , #rot #rot_ctr1_bod_ctr3_bod_wrp1_blk3 , #rot #rot_ctr1_bod_ctr3_bod_wrp1_blk4 {
+	padding-bottom: 32767px;
+	margin-bottom: -32767px; 
+}
+/*******************************
+End of Block Positioning and Spacing*/
+
+
+
+/** Content Size, Positioning, and Spacing 
+*****************************************/
+#rot #rot_ctr1_bod_ctr3_bod_wrp1_blk1_blk1 {
+  margin: 50px 40px 20px 550px;
+  text-align: right;
+}
+
+#rot #rot_ctr1_bod_ctr3_bod_wrp1_blk2_blk1 {
+  margin: 20px 30px 5px 30px;
+  padding: 0;
+}
+
+#rot #rot_ctr1_bod_ctr3_bod_wrp1_blk3_blk1 {
+  margin: 20px 30px 5px 30px;
+  padding: 0;
+}
+
+#rot #rot_ctr1_bod_ctr3_bod_wrp1_blk4_blk1 {
+  margin: 20px 30px 5px 30px;
+  padding: 0;
+}
+/*****************************************
+End of Content Size, Positioning, and Spacing */
+div#rot #rot_ctr1_bod_ctr3_bod_wrp1_blk2_custom {
+  background-image: url('../../image/edn_main.png'); background-repeat: no-repeat; width: 1080px; height: 50px; float: none; clear: both; margin-left: 1px;
+}
+div#rot #rot_ctr1_bod_ctr3_bod_wrp1_blk1_blk1_custom {
+  width: 320px; float: none; z-index: 10012; margin-top: 12px; margin-left: 750px; position: absolute; clear: both;
+}
+div#rot #rot_ctr1_bod_ctr3_bod_wrp1_blk1_blk2_custom {
+  width: 730px; position: absolute; clear: both; height: 1100px; float: none; z-index: 10005; margin-left: 24px; margin-top: 270px;
+}
+div#rot #rot_ctr1_bod_ctr3_bod_wrp1_blk1_blk4_custom {
+  width: 710px; float: none; clear: both; margin-top: 12px; margin-left: 14px; position: absolute;
+}
+div#rot #rot_ctr1_bod_ctr3_bod_wrp1_blk1_blk3_custom {
+  width: 713px; float: none; clear: both; margin-top: 70px; margin-left: 15px; position: absolute;
+}
+div#rot #rot_ctr1_bod_ctr3_bod_wrp1_blk1 {
+  background-color: #FFFFFF; background-image: none; width: 1070px; height: 1798px; margin-top: 0px; margin-left: 9px; border-top-width: 0px; border-right-width: 0px; border-bottom-width: 0px; border-left-width: 0px;
+}
+div#rot #rot_ctr1_bod_ctr3_bod_wrp1_blk2_custom_blk1_custom {
+  width: 450px; position: absolute; clear: both; height: 23px; float: none; z-index: 10005; margin-left: 360px; margin-top: -22px;
+}
+div#rot #rot_ctr1_bod_ctr3_bod_wrp1_blk2_custom_blk2_custom {
+  width: 700px; position: absolute; clear: both; height: 90px; float: none; z-index: 10003; margin-left: 200px; margin-top: -110px;
+}
