@@ -1,0 +1,145 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<!-- saved from url=(0039)http://www.apostle2035.com.tw/qq/qq.htm -->
+<html lang="zh-tw"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta name="Generator" content="EditPlus">
+<meta name="Author" content="???????">
+<meta name="Keywords" content="">
+<meta name="Description" content="">
+
+<meta http-equiv="Content-Script-Type" content="text/javascript">
+<meta http-equiv="Content-Style-Type" content="text/css">
+<script type="text/javascript" src="jquery-latest.min.js"></script>
+<title>????????</title>
+<style type="text/css">
+	#abgneBlock {
+		width: 1070px;
+		height: 309px;
+		position: relative;
+		overflow: hidden;
+		border: 0px solid #ccc;
+	}
+	#abgneBlock ul.list {
+		padding: 0;
+		margin: 0;
+		list-style: none;
+		position: absolute;
+		width: 9999px;
+		height: 100%;
+	}
+	#abgneBlock ul.list li {
+		float: left;
+		width: 1070px;
+		height: 100%;
+	}
+	#abgneBlock .list img{
+		width: 100%;
+		height: 100%;
+		border: 0;
+	}
+	#abgneBlock ul.playerControl {
+		margin: 0;
+		padding: 0;
+		list-style: none;
+		position: absolute;
+		bottom: 5px;
+		right: 5px;
+		height: 20px;
+	}
+	#abgneBlock ul.playerControl li {
+		float: left;
+		width: 10px;
+		height: 10px;
+		cursor: pointer;
+		margin: 0px 2px;
+		background: url(images/cir_ctrl.png) no-repeat -10px 0;
+	}
+	#abgneBlock ul.playerControl li.current {
+		background-position: 0 0;
+	}
+body {
+	margin-left: 0px;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+}
+</style>
+<script type="text/javascript">
+	$(function(){
+		// ?????????? jQuery ??
+		// ???? $block ??????????
+		var $block = $('#abgneBlock'),
+			$slides = $('ul.list', $block),
+			_width = $block.width(),
+			$li = $('li', $slides),
+			_animateSpeed = 600,
+			// ?????, ?????????
+			timer, _showSpeed = 3000, _stop = false;
+
+		// ?? li ??
+		var _str = '';
+		for(var i=0, j=$li.length;i<j;i++){
+			// ??? li ????? className = playerControl_??
+			_str += '<li class="playerControl_' + (i+1) + '"></li>';
+		}
+
+		// ?? ul ?? li ??????
+		var $playerControl = $('<ul class="playerControl"></ul>').html(_str).appendTo($slides.parent()).css('left', function(){
+			// ? .playerControl ???????
+			return (_width - $(this).width()) / 2;
+		});
+
+		// ? li ?? click ??
+		var $playerControlLi = $playerControl.find('li').click(function(){
+			var $this = $(this);
+			$this.addClass('current').siblings('.current').removeClass('current');
+
+			clearTimeout(timer);
+			// ???????????
+			$slides.stop().animate({
+				left: _width * $this.index() * -1
+			}, _animateSpeed, function(){
+				// ???????????, ?????????
+				if(!_stop) timer = setTimeout(move, _showSpeed);
+			});
+
+			return false;
+		}).eq(0).click().end();
+
+		// ?????? $block ?
+		$block.hover(function(){
+			// ????????
+			_stop = true;
+			clearTimeout(timer);
+		}, function(){
+			// ?????? $block ?
+			// ????????
+			_stop = false;
+			timer = setTimeout(move, _showSpeed);
+		});
+
+		// ?????
+		function move(){
+			var _index = $('.current').index();
+			$playerControlLi.eq((_index + 1) % $playerControlLi.length).click();
+		}
+	});
+</script>
+</head>
+
+<body style="">
+	<div id="abgneBlock">
+		<ul class="list" style="left: -1070px;">
+<!-- MLO 2014-05-12 <li><a target="_parent" href="http://www.apostle2035.com.tw/ecommerce/creampuffs.html"><img src="travel.jpg"></a></li> -->
+<li><a target="_parent" href=""><img src="darkchocolate2.jpg"></a></li>
+<li><a target="_parent" href=""><img src="puff.jpg"></a></li>
+<!--<li><a target="_parent" href=""><img src="mixbk.jpg"></a></li>-->
+<!--<li><a target="_parent" href="http://www.apostle2035.com.tw/ecommerce/fengficrispb12-1.html"><img src="0101pa.jpg"></a></li>-->
+<!--<li><a target="_parent" href=""><img src="sdt.jpg"></a></li>-->
+<li><a target="_parent" href=""><img src="black.jpg"></a></li>
+
+
+
+	  </ul>
+	<ul class="playerControl" style="left: 486px;"><li class="playerControl_1"></li><li class="playerControl_2 current"></li><li class="playerControl_3"></li><li class="playerControl_4"></li><li class="playerControl_5"></li><li class="playerControl_6"></li><li class="playerControl_7"></li></ul></div>
+
+</body></html>
